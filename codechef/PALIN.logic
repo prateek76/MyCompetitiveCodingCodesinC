@@ -1,0 +1,10 @@
+//first case 999999999 all digits 9
+/*when even*/
+//second case even or odd
+//if outer digit incresed make all interior digits 0**
+//check from inside to outside
+//if both digits 9 than make both 0**only if inside one and no increse made till now then only
+//if left digit is less than right in comparision then increse the left digit by 1 and make right digit also same as left
+//if left digit is greater than right in comparision then make right digit equal to left
+/*when odd*/
+//if middle digit is nine and it is a Palin increse middle-1 and equal that to middle+1 and all interior digit is 0

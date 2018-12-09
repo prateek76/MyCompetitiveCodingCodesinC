@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int main()
+
+{
+    int t,N,M,K,i,j;
+    int matrixa[101][101];
+    int matrixb[101][101];
+    scanf("%d",&t);
+    while(t--){
+        scanf("%d %d %d",&N,&M,&K);
+        for(i=0;i<N;i++){
+            for(j=1;j<M;j++){
+                scanf("%d ",&matrixa[i][j]);
+            }
+        }
+        for(i=0;i<M;i++){
+            for(j=1;j<K;j++){
+                scanf("%d ",&matrixb[i][j]);
+            }
+        }
+
+    }
+
+    return 0;
+}
